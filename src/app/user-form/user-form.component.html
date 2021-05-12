@@ -1,0 +1,40 @@
+
+  <form [formGroup] = "userForm">
+    <label>
+      Sicil No:
+      <input type="text" formControlName="sicilNo" required>
+    </label>
+
+    <label>
+      Personel Kimlik No:
+      <input type="text" formControlName="personelID" required>
+    </label>
+
+    <label>
+      Adı:
+      <input type="text" formControlName="firstName" required>
+    </label>
+  
+    <label>
+      Soyadı:
+      <input type="text" formControlName="lastName">
+    </label>
+  </form>
+  
+  <hr>
+  <!--
+  <p>
+    Form Value: {{ userForm.value | json }}
+  </p>
+  
+  
+  <p>
+    Form Status: {{ userForm.status }}
+  </p>
+  -->
+  <p>
+ <button type="button" class="btn btn-primary" (click)= "addItem()">Add</button>
+  </p>
+
+
+
