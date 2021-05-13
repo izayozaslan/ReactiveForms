@@ -19,19 +19,20 @@
       Soyadı:
       <input type="text" formControlName="lastName">
     </label>
+
+    <label>
+      Adres:
+      <input type="text" formControlName="address">
+    </label>
+
+    <label>
+      Telefon No:
+      <input type="text" formControlName="telNo">
+    </label>
+
+
   </form>
-  
   <hr>
-  <!--
-  <p>
-    Form Value: {{ userForm.value | json }}
-  </p>
-  
-  
-  <p>
-    Form Status: {{ userForm.status }}
-  </p>
-  -->
   <p>
  <button type="button" class="btn btn-primary" (click)= "addItem()">Add</button>
   </p>

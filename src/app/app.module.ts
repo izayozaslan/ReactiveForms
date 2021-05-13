@@ -10,12 +10,13 @@ import { UserTableComponent } from './user-table/user-table.component';
 import { AddUserComponent } from './add-user/add-user.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     UserFormComponent,
     UserTableComponent,
-    AddUserComponent,
+    AddUserComponent
    
   ],
   imports: [

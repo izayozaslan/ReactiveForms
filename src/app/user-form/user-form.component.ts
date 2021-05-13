@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Validators } from '@angular/forms';
-import { FormArray } from '@angular/forms';
+
 
 @Component({
   selector: 'app-user-form',
@@ -21,6 +21,8 @@ export class UserFormComponent implements OnInit {
     personelID: ['', Validators.required],
     firstName: ['', Validators.required],
     lastName: ['', Validators.required],
+    address: ['', Validators.required],
+    telNo: ['', Validators.required]
 
   })
 }
